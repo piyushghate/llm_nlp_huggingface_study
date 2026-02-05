@@ -1,0 +1,13 @@
+# Im using WSL2 20.4 Ubuntu on Windows 11
+
+create py env:
+    sudo apt install python3.8-venv
+    python -m venv llm_huggingface
+
+
+change to py environment:
+    source llm_huggingface/bin/activate
+
+for PyTorch for nvdia:
+    nvidia-smi - to confirm
+    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121 - for my version of nvdia hardware - NVIDIA GTX 1650
