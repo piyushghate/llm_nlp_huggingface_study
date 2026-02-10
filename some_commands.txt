@@ -11,3 +11,6 @@ change to py environment:
 for PyTorch for nvdia:
     nvidia-smi - to confirm
     pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121 - for my version of nvdia hardware - NVIDIA GTX 1650
+
+jupter
+    jupyter lab --allow-root
